@@ -23,7 +23,7 @@ const userSchema = new mongoose.Schema( {
 });
 
 
-
+//the pay her pimp
 
 userSchema.plugin(encrypt, {secret: process.env.SECRET, encryptedFields: ["password"]});
 
